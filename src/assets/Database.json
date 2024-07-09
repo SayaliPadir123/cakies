@@ -1,0 +1,242 @@
+
+    {
+      "location": [
+        {
+          "city": "Pune",
+        
+          "businesses": [
+            {
+              "id":1,
+              "name": "mayur cakes",
+              "image": "/assets/mumbai2.jpg",
+              "address": "Flat no,304 C3 Nakshtra residency pune",
+
+             "cake":[
+                {
+                  "image": "/assets/Vanilla-Cake1-1.jpg",
+                  "name":"vanilla cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/chocolate 1-2.jpg",
+                  "name":"chocolate cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/velvet1-3.avif",
+                  "name":"Red velvet cake",
+                  "price":"430"
+                }
+              ]
+            },
+            {
+              "id":2,
+              "name": "Aura cakes",
+              "image": "/assets/2.webp",
+              "address": "Flat no,404 C4 Lalbuag residency pune",
+
+              "cake":[
+                {
+                  "image": "/assets/strawberry 2-1.jpg",
+                  "name":"strawberry",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/angel 2-2.jpg",
+                  "name":"Angel cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/butterscotch2-3.jpg",
+                  "name":"Butter Cake",
+                  "price":"430"
+                }
+              ]
+            },
+            {
+              "id":3,
+              "name": "Jenny cakes",
+              "image": "/assets/nashik2.cms",
+              "address": "Flat no,606 A2 Nayara residency pune",
+
+              "cake":[
+                {
+                  "image": "/assets/brownie 3-1.jpg",
+                  "name":"Brownie",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/cheese 3-2.jpg",
+                  "name":"cheese cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/cup 3-3.webp",
+                  "name":"cup cakes",
+                  "price":"430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Nashik",
+         
+          "businesses": [
+            {
+              "id":1,
+              "name": "Ketan cakes",
+              "image": "/assets/mumbai2.jpg",
+              "address": "Flat no,304 C3 Nakshtra residency Nashik",
+
+              "cake":[
+                {
+                  "image": "/assets/fruits cake.jpg",
+                  "name":"fruits cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/pound cake.jpg",
+                  "name":"pound cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/list1-1.jpg",
+                  "name":"chocolate cake",
+                  "price":"430"
+                }
+              ]
+            },
+            {
+              "id":2,
+              "name": "Harshu cakes",
+              "image": "/assets/mumbai1.jpg",
+              "address": "Flat no,404 C3 Kesar residency Nashik",
+
+              "cake":[
+                {
+                  "image": "/assets/theme cake.webp",
+                  "name":"Theme cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/princess.jpeg",
+                  "name":"Princess Cakes",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/mango cake.webp",
+                  "name":"Mango cake",
+                  "price":"430"
+                }
+              ]
+            },
+            {
+              "id":3,
+              "name": "Sahil's cakes",
+              "image": "/assets/2.webp",
+              "address": "Flat no,704 B3 Naksh residency Nashik",
+
+              "cake":[
+                {
+                  "image": "/assets/blackberry.jpg",
+                  "name":"Blackberry cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/butterscotch.jpg",
+                  "name":"Butterscotch cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/raspberry.jpg",
+                  "name":"Raspberry cake",
+                  "price":"430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Mumbai",
+          
+          "businesses": [
+            {
+              "id":1,
+              "name": "Rohini's cakes",
+              "image": "/assets/nashik1.jpg",
+              "address": "Flat no,304 C3 Kunal residency Mumbai",
+
+              "cake":[
+                {
+                  "image": "/assets/orange cake.jpg",
+                  "name":"Orange cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/mango cake.jpg",
+                  "name":"Mango cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/cank black.webp",
+                  "name":"cank Black",
+                  "price":"430"
+                }
+              ]
+
+            },
+            {
+              "id":2,
+              "name": "Siyas cakes",
+              "image": "/assets/nashik2.cms",
+              "address": "Flat no,308 B2 Pasayadan residency Mumbai",
+
+              "cake":[
+                {
+                  "image": "/assets/pinata.jpeg",
+                  "name":"Pinata cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/photo print.png",
+                  "name":"Photo Print cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/pine apple.jpg",
+                  "name":"Pine apple cake",
+                  "price":"430"
+                }
+              ]
+            },
+            {
+              "id":3,
+              "name": "Monny's cakes",
+              "image": "/assets/nashik3.webp",
+              "address": "Flat no,204 A3 Nakshtra residency Mumbai",
+
+              "cake":[
+                {
+                  "image": "/assets/fondant cake.jpg",
+                  "name":"Fondant cake",
+                  "price":"250"
+                },
+                {
+                  "image": "/assets/toy theme.webp",
+                  "name":"Toy theme cake",
+                  "price":"330"
+                },
+                {
+                  "image": "/assets/oreao cake.webp",
+                  "name":"Oreo cake",
+                  "price":"430"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  
+  

@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar {
+    padding: 10px;
+    background-color: #3d75b5;
+    align-items: center;
+    text-align: center;
+  }
+  
+  body {
+    background-image: url('/assets/background image.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 115vh;
+  }
+  
+  .search-button {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;.col-md-6 {
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+    align-items: center;
+  }
+  

@@ -1,0 +1,51 @@
+.contain {
+    /* max-width: 400px; */
+    padding: 20px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+  
+  .cakes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .cake-card {
+    width: 280px; /* Adjusted width */
+    height: 350px; /* Adjusted height */
+    margin-bottom: 20px;
+    background-color: #8f9ac9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cake-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cake-item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cake-image {
+    width: 100%;
+    height: 250px; /* Adjusted image height */
+    object-fit: cover; /* Ensures images fill their containers */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .cake-details {
+    padding: 10px;
+  }
+  
+  .cake-details p {
+    margin: 5px 0;
+  }
+  

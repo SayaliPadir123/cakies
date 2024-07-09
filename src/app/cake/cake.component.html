@@ -1,0 +1,27 @@
+
+<!-- for cakes list -->
+ <div class="contain">
+    <!-- <div *ngIf="vendors.length > 0" class="vendors-container"> -->
+      <h2 class="text-center">Cakes offered by Owner's</h2>
+      
+
+      <!-- cake list -->
+      <div class="cakes-list">
+
+        <div *ngFor="let c of cake" class="cake-card">
+          
+          <a class="cake-item"> 
+          
+          <img [src]="c.image" (click) ="method3(c)" alt="{{ c.name }}" class="cake-image">
+          
+          <div class="cake-details">
+            <p>{{ c.name }}</p>
+            <p>Price: {{ c.price }}</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      </div>
+
+      <router-outlet></router-outlet>
+   

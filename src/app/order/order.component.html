@@ -1,0 +1,53 @@
+
+<div class="container">
+  <h2 class="my-4 text-center">Order your cake</h2>
+      <!-- Customer Information -->
+      <div class="form-group">
+        <label for="customerName">Your Name: </label>
+
+        <input type="text" class="form-control" id="customerName" name="customerName" placeholder="Enter your name" [(ngModel)]="customerName" required >
+
+
+        <!-- <input type="text" class="form-control" id="customerName" name="customerName" placeholder="Enter your name" required> -->
+      </div>
+      <div class="form-group">
+        <label for="customerAddress"> Address: </label>
+        <input type="address" class="form-control" id="customerAddress" name="customerAddress" placeholder="Enter your Address" [(ngModel)]="customerAddress" required>
+      </div>
+      <div class="form-group">
+        <label for="customerPhone">Phone number: </label>
+        <input type="tel" class="form-control" id="customerPhone" name="customerPhone" placeholder="Enter your phone number" [(ngModel)]="customerPhone" required>
+      </div>
+
+      <!-- Cake Details -->
+      <div class="form-group">
+        <label for="cakeType">Cake Type: </label>
+        <select class="form-control" id="cakeType" name="cakeType" [(ngModel)]="cakeType" required>
+          <option value="">Select cake type: </option>
+          <option value="birthday">Birthday Cake</option>
+          <option value="wedding">Wedding Cake</option>
+          <option value="anniversary">Anniversary Cake</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="cakeFlavour">Cake Flavour: </label>
+        <input type="text" class="form-control" id="cakeFlavour" name="cakeFlavour" placeholder="Enter cake flavour"[(ngModel)]="cakeFlavour" required>
+      </div>
+      <div class="form-group">
+        <label for="cakeSize">Cake Size (in inches): </label>
+        <input type="number" class="form-control" id="cakeSize" name="cakeSize" placeholder="Enter cake size" [(ngModel)]="cakeSize" required>
+      </div>
+
+      <!-- Additional Instructions -->
+      <div class="form-group">
+        <label for="specialInstructions">Special Instructions: </label>
+        <textarea class="form-control" id="specialInstructions" name="specialInstructions" rows="3" [(ngModel)]="specialInstructions"></textarea>
+      </div>
+
+      <!-- Submit Button -->
+
+      <button type="submit" class="btn btn-primary btn-block" (click) ="submitForm()">Submit Order</button>
+   
+  </div>
+

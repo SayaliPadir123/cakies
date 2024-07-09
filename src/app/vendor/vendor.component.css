@@ -1,0 +1,80 @@
+/* Global container styles */
+.contain {
+    padding: 20px;
+  }
+  
+  /* Vendor list container */
+  .vendors-list {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Vendor item card */
+
+
+  .vendor-card{
+    width: 280px; /* Adjusted width */
+    height: 350px; /* Adjusted height */
+    margin-bottom: 20px;
+    background-color: #c7ceeb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* overflow: hidden;
+    transition: transform 0.2s ease-in-out; */
+
+  }
+  .vendor-item {
+ 
+/*   
+    background-color: #eceff7; */
+    border-radius: 8px;
+    padding: 15px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 250px; Adjust width as needed */
+    /* height:330px; */
+    text-decoration: none; /* Remove underline from anchor tag */
+    display: block; /* Ensure anchor tag behaves like a block */
+  }
+  
+  .vendor-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Vendor image */
+  .vendor-image {
+    width: 100%;
+    height: 75%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Vendor details */
+  .vendor-details {
+    padding: 10px;
+  }
+  
+  .vendor-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .vendor-address {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Additional styling for the container */
+  .vendors-container {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

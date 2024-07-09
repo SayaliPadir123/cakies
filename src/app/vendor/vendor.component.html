@@ -1,0 +1,25 @@
+
+
+
+<div class="contain">
+      <h2 class="text-center">List of Cake Owner's</h2>
+  
+      <!-- vendors list -->
+      <div class="vendors-list">
+        <div *ngFor="let vendor of vendors" class="vendor-card">
+  
+          <a class="vendor-item" >
+            <img [src]="vendor.image"(click)="method2(vendor.cake)" alt="{{ vendor.name }}" class="vendor-image">
+ 
+            <div class="vendor-details">
+              <p>{{ vendor.name }}</p>
+              <p>{{ vendor.address }}</p>
+  
+            </div>
+          </a>
+        </div>
+      </div>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
